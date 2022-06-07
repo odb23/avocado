@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.card{
+    flex: 1;
+    padding: 100px;
+    padding-right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+} 
+
+.title {
+    font-size: 50px;
+    margin: 0;
+}
+
+.brand{
+    color: green;
+}
+
+.desc {
+    margin: 0;
+    font-size: 20px;
+}
+
+.button {
+    margin: 0;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 1.5rem;
+    width: 120px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
