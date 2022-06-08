@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Circle = ({ top, left, bottom, right, backgroundColor }) => {
+const Circle = ({ ...props}) => {
     return (
       <div
-        style={{ top, left, bottom, right, backgroundColor }}
+        style={props}
         className="circle"
       ></div>
     );

@@ -6,7 +6,8 @@ import Circle from './Circle'
 const Intro = () => {
   return (
     <div className={styles.container}>
-      <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh"  bottom={0} right={0}/>
+      <Circle backgroundColor="#b0ff49" top="-50vh" left="-50vh"/>
+      <Circle backgroundColor="#01c686" right="-40vh"/>
       
       <div className={styles.card}>
         <h1 className={styles.title}>
