@@ -1,0 +1,42 @@
+.container{
+    height: 250px;
+    border-top: 3px solid black;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+    padding: 50px;
+}
+
+.title{
+    font-weight: 400;
+    color: white;
+    background: green;
+    padding:5px;
+    width: max-content;
+}
+
+.linkTitle{
+    text-decoration: underline;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+}
+
+.linkText{
+    margin-right: 20px;
+}
+
+.carL{
+    flex: 2;
+}
+
+.carS{
+flex: 1;
+}
+
+.cardItem{
+    margin-bottom: 20px;
+}
