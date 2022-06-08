@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
 import Services from '../components/Services'
+import { data } from '../data'
 
 const Intro = dynamic(
   () => import('../components/Intro'),
@@ -9,7 +10,7 @@ const Intro = dynamic(
 )
 
 export default function Home({ services }) {
-  console.log(services)
+
   return (
     <div className={styles.container}>
       <Head>
