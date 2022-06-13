@@ -1,4 +1,4 @@
-.container{
+.container {
     height: 250px;
     border-top: 3px solid black;
     display: flex;
@@ -8,35 +8,52 @@
     padding: 50px;
 }
 
-.title{
+.title {
     font-weight: 400;
     color: white;
     background: green;
-    padding:5px;
+    padding: 5px;
     width: max-content;
 }
 
-.linkTitle{
+.linkTitle {
     text-decoration: underline;
 }
 
-.link{
+.link {
     display: flex;
     align-items: center;
 }
 
-.linkText{
+.linkText {
     margin-right: 20px;
 }
 
-.carL{
+.carL {
     flex: 2;
 }
 
-.carS{
-flex: 1;
+.carS {
+    flex: 1;
 }
 
-.cardItem{
+.cardItem {
     margin-bottom: 20px;
+}
+
+@media screen and (max-width : 480px) {
+    .container {
+        height: auto;
+        flex-direction: column;
+    }
+
+    .title,
+    .linkTitle {
+        font-size: 30px;
+    }
+
+    .cardItem{
+        text-align: center;
+        font-size: 14px;
+    }
 }

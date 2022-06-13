@@ -9,7 +9,7 @@ const Footer = () => {
       <div className={styles.carL}>
         <h1 className={styles.title}>0DB AV0CAD0 CREATIVES</h1>
         <h1 className={styles.linkTitle}>
-          <a href="/contact" passHref className={styles.link}>     
+          <a href="/contact" passhref="true" className={styles.link}>     
               <span className={styles.linkText}> WORK WITH US</span>
               <Image src="/img/link.png" alt="" width="40" height="40" />
           </a>
