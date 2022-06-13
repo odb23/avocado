@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import dynamic from 'next/dynamic'
 import Services from '../components/Services'
+import Testimonial from '../components/Testimonial'
 import { data } from '../data'
 
 const Intro = dynamic(
@@ -19,6 +20,7 @@ export default function Home({ services }) {
       </Head>
       <Intro />
       <Services services={services}/>
+      <Testimonial />
     </div>
   )
 }

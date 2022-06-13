@@ -11,7 +11,7 @@ const Intro = () => {
       
       <div className={styles.card}>
         <h1 className={styles.title}>
-          <span className={styles.brand}>ODB AVOCAD0</span> DIGITAL PRODUCT AGENCY.
+          <span className={styles.brand}>0DB AV0CAD0</span> DIGITAL PRODUCT AGENCY.
         </h1>
         <p className={styles.desc}> Create live segments and target the right people for messages based on their behaviors.</p>
         <button className={styles.button}>DISCOVER</button>
